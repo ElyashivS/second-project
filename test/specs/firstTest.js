@@ -5,5 +5,6 @@ describe('Ecommerce Application', () =>
         //webdriverIO code
         browser.url("https://www.google.com/");
         expect(browser).toHaveTitleContaining("Google");
+        // Test
     });
 });
