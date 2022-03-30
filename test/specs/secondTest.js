@@ -40,8 +40,10 @@ describe('Ecommerce Application', () =>
         // TODO: fix this
         $("#nav-cart").click();
 
-        let firstItem = $("#sc-item-Caa0b3efc-0b7d-4561-8a22-1ba3000c3529 > div.sc-list-item-content > div > div.a-column.a-span2.a-text-right.sc-item-right-col.a-span-last > p > span").getText();
-        let secondItem = $("#sc-item-C3cbf4511-4534-42b0-99e4-a0a335131e5f > div.sc-list-item-content > div > div.a-column.a-span2.a-text-right.sc-item-right-col.a-span-last > p > span").getText();
+        let firstItem = $("(//span[@class='a-size-medium a-color-base sc-price sc-white-space-nowrap sc-product-price a-text-bold'])");
+        let secondItem = $("/html/body/div[1]/div[2]/div[3]/div[4]/div/div[2]/div[1]/div/form/div[2]/div[4]/div[4]/div/div[2]/p/span");
+        console.log(firstItem.getText());
+        console.log(secondItem.getText());
         // firstItem = String(firstItem).substring(1);
         // secondItem = String(secondItem).substring(1);
         // let sum = parseInt(firstItem) + parseInt(secondItem);
