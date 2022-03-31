@@ -11,6 +11,7 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@wdio/allure-reporter": "^7.19.1",
         "@wdio/cli": "^7.19.1",
         "@wdio/local-runner": "^7.19.1",
         "@wdio/mocha-framework": "^7.19.1",

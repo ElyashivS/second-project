@@ -22,6 +22,7 @@ exports.config = {
     //
     specs: [
         './test/specs/**/*.js'
+        // './test/specs/secondTest.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -134,7 +135,10 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec'],
 
-
+    reporters: [['allure', {
+        outputDir: 'allure-results',
+        disableWebdriverScreenshotsReporting: false,
+    }]],
     
     //
     // Options to be passed to Mocha.
@@ -237,8 +241,11 @@ exports.config = {
      * @param {Boolean} result.passed    true if test has passed, otherwise false
      * @param {Object}  result.retries   informations to spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
-    // },
+    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+        if (error) {
+            browser.takeScreenshot();
+          }
+    },
 
 
     /**
