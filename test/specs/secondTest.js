@@ -1,6 +1,6 @@
 describe('Ecommerce Application', () =>
 {
-    it('login page title', () =>
+    it('Amazon web', () =>
     {
         // WebdriverIO code
         browser.url("https://www.amazon.com/"); // Open Amazon website
