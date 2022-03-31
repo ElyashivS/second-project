@@ -1,6 +1,6 @@
 describe('Ecommerce Application', () =>
 {
-    it('login page title', () =>
+    it('Practice web', () =>
     {
         // WebdriverIO code
         browser.url("https://rahulshettyacademy.com/AutomationPractice/"); // Open website.
