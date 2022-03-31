@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#corePrice_feature_div > div > span > span:nth-child(2)"
+}

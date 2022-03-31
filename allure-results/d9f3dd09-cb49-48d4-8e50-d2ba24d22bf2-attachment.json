@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#radio-btn-example > fieldset > label:nth-child(3) > input"
+}

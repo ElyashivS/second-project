@@ -1,0 +1,62 @@
+{
+  "uid" : "b6a3d4024b077cf7",
+  "name" : "login page title",
+  "fullName" : "Ecommerce Application.login page title",
+  "historyId" : "edd38a1b04f6aad847d1f4aaed78b16e",
+  "time" : {
+    "start" : 1648722458929,
+    "stop" : 1648722484173,
+    "duration" : 25244
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element not interactable\n                  (Session info: chrome=99.0.4844.82)",
+  "statusTrace" : "element not interactable\n                  (Session info: chrome=99.0.4844.82)\n                    at getErrorFromResponseBody (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\webdriver\\build\\utils.js:197:12)\n                    at NodeJSRequest._request (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\webdriver\\build\\request\\index.js:158:60)\n                    at async Element.runCommandWithHooks (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:105:25)\n                    at Element.runCommandWithHooks (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:100:24)\n                    at Element.wrapCommandFn (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:67:44)\n                    at Element.<anonymous> (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\utils\\build\\shim.js:276:24)\n                    at Element.wrapCommandFn (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\wrapCommand.js:60:23)\n                    at Element.elementErrorHandlerCallbackFn (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\webdriverio\\build\\middlewares.js:24:65)\n                    at Element.elementErrorHandlerCallback (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\webdriverio\\build\\middlewares.js:48:12)\n                    at Context.<anonymous> (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\test\\specs\\secondTest.js:35:43)\n                    at Context.executeSync (C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at C:\\Users\\אלישיב\\Desktop\\Job\\secondproject\\node_modules\\@wdio\\sync\\build\\index.js:69:73",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login page title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6a3d4024b077cf7.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}

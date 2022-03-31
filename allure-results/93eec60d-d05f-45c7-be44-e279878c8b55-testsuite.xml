@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1648722458928' stop='1648722484175'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1648722458929' status='broken' stop='1648722484173'>
+            <name>login page title</name>
+            <title>login page title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-99.0.4844.82'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=99.0.4844.82)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=99.0.4844.82)
+                    at getErrorFromResponseBody (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\webdriver\build\utils.js:197:12)
+                    at NodeJSRequest._request (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\webdriver\build\request\index.js:158:60)
+                    at async Element.runCommandWithHooks (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.&lt;anonymous> (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\utils\build\shim.js:276:24)
+                    at Element.wrapCommandFn (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\webdriverio\build\middlewares.js:24:65)
+                    at Element.elementErrorHandlerCallback (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\webdriverio\build\middlewares.js:48:12)
+                    at Context.&lt;anonymous> (C:\Users\אלישיב\Desktop\Job\secondproject\test\specs\secondTest.js:35:43)
+                    at Context.executeSync (C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\אלישיב\Desktop\Job\secondproject\node_modules\@wdio\sync\build\index.js:69:73</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

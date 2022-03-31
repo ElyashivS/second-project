@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 31 14:17:17 EEST 2022","Thu Mar 31 14:18:09 EEST 2022","51626","","Ecommerce Application","","Ecommerce Application","Practice web","Practice web",""
+"passed","Thu Mar 31 14:17:17 EEST 2022","Thu Mar 31 14:18:09 EEST 2022","51553","","Ecommerce Application","","Ecommerce Application","Amazon web","Amazon web",""
+"passed","Thu Mar 31 13:54:43 EEST 2022","Thu Mar 31 13:55:25 EEST 2022","42061","","Ecommerce Application","","Ecommerce Application","login page title","login page title",""

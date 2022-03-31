@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//span[@class='a-size-medium a-color-base sc-price sc-white-space-nowrap'])"
+}

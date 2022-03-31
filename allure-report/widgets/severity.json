@@ -1,0 +1,31 @@
+[ {
+  "uid" : "69e7d1d01e2bc0ec",
+  "name" : "login page title",
+  "time" : {
+    "start" : 1648724083570,
+    "stop" : 1648724125631,
+    "duration" : 42061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff0395d72dc191c4",
+  "name" : "Practice web",
+  "time" : {
+    "start" : 1648725437761,
+    "stop" : 1648725489387,
+    "duration" : 51626
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b490c34a87dec06f",
+  "name" : "Amazon web",
+  "time" : {
+    "start" : 1648725437926,
+    "stop" : 1648725489479,
+    "duration" : 51553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

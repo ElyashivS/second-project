@@ -1,0 +1,60 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Ecommerce Application",
+    "children" : [ {
+      "name" : "login page title",
+      "uid" : "69e7d1d01e2bc0ec",
+      "parentUid" : "de7d85c3420e03600cbe94734e47c867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648724083570,
+        "stop" : 1648724125631,
+        "duration" : 42061
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Practice web",
+      "uid" : "ff0395d72dc191c4",
+      "parentUid" : "de7d85c3420e03600cbe94734e47c867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648725437761,
+        "stop" : 1648725489387,
+        "duration" : 51626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    }, {
+      "name" : "Amazon web",
+      "uid" : "b490c34a87dec06f",
+      "parentUid" : "de7d85c3420e03600cbe94734e47c867",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648725437926,
+        "stop" : 1648725489479,
+        "duration" : 51553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-99.0.4844.82" ]
+    } ],
+    "uid" : "de7d85c3420e03600cbe94734e47c867"
+  } ]
+}

@@ -1,0 +1,87 @@
+{
+  "uid" : "69e7d1d01e2bc0ec",
+  "name" : "login page title",
+  "fullName" : "Ecommerce Application.login page title",
+  "historyId" : "edd38a1b04f6aad847d1f4aaed78b16e",
+  "time" : {
+    "start" : 1648724083570,
+    "stop" : 1648724125631,
+    "duration" : 42061
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "testMethod",
+    "value" : "login page title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-99.0.4844.82"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c8ff98a91141f7f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648724083556,
+        "stop" : 1648724125342,
+        "duration" : 41786
+      }
+    }, {
+      "uid" : "4fe36e6bdf01e195",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648723967668,
+        "stop" : 1648724004297,
+        "duration" : 36629
+      }
+    }, {
+      "uid" : "b6a3d4024b077cf7",
+      "status" : "broken",
+      "statusDetails" : "element not interactable\n                  (Session info: chrome=99.0.4844.82)",
+      "time" : {
+        "start" : 1648722458929,
+        "stop" : 1648722484173,
+        "duration" : 25244
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "69e7d1d01e2bc0ec.json",
+  "parameterValues" : [ "chrome-99.0.4844.82" ]
+}
