@@ -30,9 +30,9 @@ describe('Ecommerce Application', () =>
         $("#a-autoid-0-announce").click();
         $("#quantity_1").click();
         $("#add-to-cart-button").click();
-        browser.pause(1000);
+        browser.waitUntil( () => $("#attach-close_sideSheet-link").isDisplayed());
+        $("#attach-close_sideSheet-link").waitForDisplayed();
         $("#attach-close_sideSheet-link").click();
-        browser.pause(1000);
 
         // Validate that your cart has 3 items.
         expect($("#nav-cart-count")).toHaveText("3");
